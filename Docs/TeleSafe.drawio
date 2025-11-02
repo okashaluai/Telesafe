@@ -113,7 +113,10 @@
           <mxGeometry x="20" y="610" width="810" height="370" as="geometry" />
         </mxCell>
         <mxCell id="N1vJ2vMPCG5KvZV_xYA0-28" value="DB Manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="N1vJ2vMPCG5KvZV_xYA0-3" vertex="1">
-          <mxGeometry x="344.38" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="217.5" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9BEAnXNPrQLhHc1VHWg5-4" value="External Services&lt;br&gt;Interfaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N1vJ2vMPCG5KvZV_xYA0-3">
+          <mxGeometry x="420" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1vJ2vMPCG5KvZV_xYA0-4" value="Remote Persistence" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="40" y="1040" width="340" height="270" as="geometry" />
@@ -139,7 +142,7 @@
             <mxPoint x="535" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9BEAnXNPrQLhHc1VHWg5-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N1vJ2vMPCG5KvZV_xYA0-28" target="N1vJ2vMPCG5KvZV_xYA0-2">
+        <mxCell id="9BEAnXNPrQLhHc1VHWg5-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N1vJ2vMPCG5KvZV_xYA0-3" target="N1vJ2vMPCG5KvZV_xYA0-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="585" y="1160" as="sourcePoint" />
             <mxPoint x="470" y="830" as="targetPoint" />
