@@ -1,6 +1,6 @@
 # Telesafe
 
-Authors: David Krall, Luai Okasha
+Contributors: David Krall, Luai Okasha,  Lovely Singh
 
 A private messenger for Android.
 
