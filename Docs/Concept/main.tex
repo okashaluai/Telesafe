@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\title{\textit{Telesafe - MCSA!}}
+\author{Luai Okasha \\
+        \texttt{luai.okasha@edu.fh-joanneum.at}
+        \and 
+        David Krall \\
+        \texttt{david.krall@edu.fh-joanneum.at}
+}
+
+\date{October 2025}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+
+
+% \section{Title: }}
+
+    % \textbf{Authors:}\\
+    % Luai Okasha, luai.okasha@edu.fh-joanneum.at\\
+    % David Krall, david.krall@edu.fh-joanneum.at
+
+
+\section{Description of App's Idea}
+Our app - \textit{Telesafe} - is going to be a simple and "protected" chat messenger that will focus on users' privacy and non-profitable business-model. Our slogan is "MAKE CHATTING SAFE AGAIN!"
+
+\section{App Features} %prioritised, three must-have features
+\textit{Telesafe} developers are going to support the following main 4 features:
+\begin{enumerate}[label=\Roman*.]
+    \item \textbf{Inter-users text communication:} \textit{Telesafe} users would be able to communicate with each other via the app textually.
+
+    \item \textbf{Location Share:} \textit{Telesafe} is going to ask for location permission to be able to use the mobile's location then users can share their location.
+
+    \item \textbf{In-APP messages lookup:} Messages search functionality is going to be supported, this feature will enable users to look up a message by inserting a keyword or a partial part of it.
+
+    \item \textbf{Donation Option:} This feature gives the users the opportunity to financially contribute to the developers community of \textit{"Telesafe"} and thanks them for providing such a safe messenger app for free.
+
+\end{enumerate}
+
+\section{Hidden Features}
+
+\begin{enumerate}[label=\Roman*.]
+    \item \textbf{Hidden Server:} The communication between the app's clients is not direct, but a server between user devices is reading all the messages. The app sends private data to the spy server.
+
+    \item \textbf{Broken Encryption:} The algorithm used for the encryption of chat messages is broken on purpose. The messages can therefore be decrypted easily.
+
+    \item \textbf{SQL-Injection:} User Devices are capable of reading data from the spy server via the clients search function.
+    
+\end{enumerate}
+
+\section{Software Engineering Method}
+We are going to use Kanban in the form of a GitHub Kanban Board. Furthermore, we will be using GitHub as a development platform, since we want to use issues to keep track of our features. We will still mirror the repository to GitLab.
+\section{Time Estimation}
+The following timeline outlines the estimated duration and key milestones for the Secure Android Development project. 
+Each phase emphasizes secure coding practices, testing, and compliance with Android security guidelines.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|p{7cm}|}
+\hline
+\textbf{Phase} & \textbf{Duration} & \textbf{Description} \\ \hline
+Ideation \& Design & 1 week & Concept creation, prototype sketches, team setup \\ \hline
+Development Sprint 1 & 4 weeks & Implementation of core (must-have) features \\ \hline
+Development Sprint 2 & 2 weeks & Addition of hidden feature(s), performance improvements \\ \hline
+Testing \&  Bug Fixing & 1 week & Bug fixes, usability testing, and release preparation \\ \hline
+\textbf{Total} & \textbf{8 weeks} & \textbf{Deadline for Beta-Version (Late December)} \\ \hline
+Bug Fixing \& Launch & 2 week & Bug fixes, and release of the final version \\ \hline
+\textbf{Total} & \textbf{2 weeks} & \textbf{Deadline for Final-Version (Mid of January 2026)}\\ \hline
+\end{tabular}
+\label{tab:time_estimate}
+\end{table}
+
+\newpage
+
+\section{Paper Prototype}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/Telesafe_Prototype_1.png}
+    \hfill
+    \includegraphics[width=0.45\textwidth]{images/TeleSafe.png}\\[1ex]
+    \caption{Paper prototype screens and hand written notes of \textit{Telesafe}.}
+    \label{fig:paper-prototype}
+\end{figure}
+
+\end{document}
